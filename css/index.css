@@ -228,6 +228,9 @@ nav a {
 .home .content-destination img {
   border-radius: 10px;
 }
+.home .zen {
+  padding-bottom: 30px;
+}
 .home .content-pick {
   padding-top: 30px;
   border-top: 2px dashed #C0C0C0;
