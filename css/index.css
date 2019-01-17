@@ -1,4 +1,4 @@
-/* http://meyerweb.com/eric/tools/css/reset/
+/* http://meyerweb.com/eric/tools/css/reset/ 
    v2.0 | 20110126
    License: none (public domain)
 */
@@ -167,6 +167,19 @@ img {
   max-width: 800px;
   width: 100%;
   margin: 0 auto;
+}
+nav {
+  display: flex;
+  justify-content: space-between;
+  padding: 1% 18%;
+  border-bottom: 2px dashed #C0C0C0;
+}
+nav a {
+  text-decoration: none;
+  color: black;
+  margin: 0 1rem;
+  font-size: 1.6rem;
+  line-height: 1.9;
 }
 .footer {
   width: 100%;
